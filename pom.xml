@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.daniel.tool</groupId>
+    <artifactId>mathutil</artifactId>
+    <version>83.86</version>
+
+    <properties>
+        <maven.compiler.source>18</maven.compiler.source>
+        <maven.compiler.target>18</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <!-- Đây là nơi khai báo thư viện mình cần dùng, khai báo theo 1 cú pháp cho trước, ko gõ tự do
+         nếu gõ đúng cú pháp, tên thư viện thì phía hậu trường của intellij/netbeans/eclipse
+         có một tool khác sẽ đảm nhận việc đi tải thư viện trên mạng về máy
+         add vào project để ta sẵn sàng sài class thư viện cung cấp
+         GIỐNG CƠ CHẾ HOẠT ĐỘNG CỦA C#, NODE.JS/REACT
+         JAVA: TOOL NÀY TÊN LÀ MAVEN, CÂU LỆNH LÀ MVN
+         NODE: TOOL NÀY TÊN LÀ NPM (NODE PACKGE MANAGEMENT), CÂU LỆNH LÀ NPM
+         C#: TOOL NÀY TÊN LÀ NUGET...
+    -->
+    <!-- mvnrepository.com -->
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.13.0</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>
