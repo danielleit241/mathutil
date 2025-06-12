@@ -1,4 +1,5 @@
 # Welcome to Math Utility Repository
+[![Math Utility Project (CI included) | © 2025 by daniel.le](https://github.com/danielleit241/mathutil/actions/workflows/ci-script.yml/badge.svg)](https://github.com/danielleit241/mathutil/actions/workflows/ci-script.yml)
 
 ## You will find in this repository the following stuff:
 
